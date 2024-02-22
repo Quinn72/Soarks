@@ -144,6 +144,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Soarks\Application.cpp" />
+    <ClCompile Include="Soarks\GameInstance.cpp" />
+    <ClCompile Include="Soarks\Screen.cpp" />
+    <ClCompile Include="Soarks\Utilites\Config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Soarks\Application.h" />
+    <ClInclude Include="Soarks\GameInstance.h" />
+    <ClInclude Include="Soarks\Screen.h" />
+    <ClInclude Include="Soarks\Utilites\Config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Soarks.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
